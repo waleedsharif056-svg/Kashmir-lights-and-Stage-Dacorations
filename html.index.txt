@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kashmir Light & Stage Decorations</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+        }
+
+        header {
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            color: #d4af37;
+            font-size: 28px;
+        }
+
+        header p {
+            color: #ccc;
+        }
+
+        section {
+            padding: 40px 20px;
+        }
+
+        h2 {
+            color: #d4af37;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 10px 0;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .contact p {
+            margin: 8px 0;
+        }
+
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Kashmir Light & Stage Decorations</h1>
+    <p>Uzair Karim & Umair Karim</p>
+</header>
+
+<section>
+    <h2>Our Services</h2>
+    <ul>
+        <li>Home light decoration for marriages</li>
+        <li>Stage decoration</li>
+        <li>Sound, Fans, Generator, Heaters</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <img src="photosweb/IMG-20251221-WA0091.jpg">
+        <img src="photosweb/IMG-20251221-WA0096.jpg">
+    </div>
+</section>
+
+<section class="contact">
+    <h2>Contact Us</h2>
+    <p>📱 Umair Karim: +92 311 5007607 (WhatsApp)</p>
+    <p>📞 Uzair Karim: +92 316 9294788</p>
+    <p>📧 Email: azizKarim0228@gmail.com</p>
+    <p>📍 Islamabad G-9/4, Peshawar Morr, Street 54</p>
+
+    <iframe 
+        src="https://www.google.com/maps?q=G-9/4%20Islamabad&output=embed">
+    </iframe>
+</section>
+
+</body>
+</html>
